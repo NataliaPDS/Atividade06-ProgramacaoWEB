@@ -1,0 +1,92 @@
+*{
+  
+  margin: 0px;
+}
+body{
+    background-color: rgb(224, 250, 228);
+}
+#topo{
+    width: 80%;
+    height: auto;
+}
+#DireitoTopo{
+    margin-left: 70%;
+}
+header{
+   background-color: rgb(255, 219, 239);
+   width: 100%;
+   height: 50px;
+  
+}
+nav{
+    color:aliceblue;
+    width: 100%;
+    margin-left: auto;
+    display: flex;
+}
+nav ul li{
+      display: inline; /*display para colocar um do lado do outro*/
+      padding-left: 20px;
+     
+}
+#imgLOGOIF{
+    width: auto;
+    height: 50px;
+}
+
+#imgNatalia{
+    width: auto;
+    height: 10px;
+}
+#imgLupa{
+    width: auto;
+    height: 100px;
+    padding-left: 55px;
+    
+}
+#imgCompu{
+    width: auto;
+    height: 100px;
+    padding-left: 55px;
+    padding-top: 30px;
+}
+#centro{
+    display:flex;
+}
+#centroP{
+   width: 60%;
+   display: flex;
+}
+#centroP button{
+    width: 90%;
+    height: auto;
+}
+  
+#esquerdoP{
+    background-color: white;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+#direitoP{
+    background-color: white;
+    width: 20%;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+#textoContato input[type = nome],input[type = email]
+{
+    width: 30%;
+    height: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    border-color: 0px solid aliceblue ;
+   border-radius: 5px; /*arredonda*/
+   margin-bottom: 20px; /*espaÃ§o entre os botÃĩes*/
+}
+#textoContato textarea{
+  
+}
