@@ -1,102 +1,166 @@
-*{
-  
-  margin: 0px;
+*{ /*BODY*/
+   margin: 0px;
 }
 body{
     background-color: rgb(224, 250, 228);
+}
+
+/*CABEÇALHO*/
+header{
+   background-color: rgb(255, 219, 239);
+   width: 100%;
+   height: 70px;
+  
 }
 #topo{
     width: 80%;
     height: auto;
 }
-#DireitoTopo{
-    margin-left: 70%;
-}
-header{
-   background-color: rgb(255, 219, 239);
-   width: 100%;
-   height: 50px;
-  
-}
+
+/*MENU DE OPÇÕES*/
 nav{
-    color:aliceblue;
+    color:white;
     width: 100%;
-    margin-left: auto;
-    display: flex;
+    height: auto;
+    margin-left: 90%;
+    display:flex;
 }
 nav ul li{
       display: inline; /*display para colocar um do lado do outro*/
-      padding-left: 20px;
+      padding-left: 40px;
+   
      
 }
+
+/*IMAGENS*/
 #imgLOGOIF{
-    width: auto;
-    height: 50px;
+    width: 50px;
+    height: auto;
 }
 
 #imgNatalia{
-    width: auto;
-    height: 10px;
+    width: 300px;
+    height: auto;
+    padding-left: 100px;
+    border-radius: 10px;
+ 
 }
 #imgLupa{
     width: auto;
     height: 100px;
-    padding-left: 55px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 #imgCompu{
     width: auto;
     height: 100px;
-    padding-left: 55px;
-    padding-top: 30px;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
+
+/*INDEX - INICIO*/
 #centro{
     display:flex;
 }
+#direito{
+  padding-top: 50px;
+    
+}
+#esquerdo{
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+
+/*PORTIFOLIO*/*
 #centroP{
  
    width: 60%;
    display: flex;
 }
-#centroP button{
-    width: 230px;
-    height: auto;
+#botaoCP button{
+    width: 100%;
+    height: 30px;
+    color: white;
+    background-color: black;
 }
   
 #esquerdoP{
     background-color: white;
-    width: 20%;
+    width: 22%;
     height: auto;
     margin: auto;
-    border-radius: 8px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-right: 5%;
+    
 }
 
 #direitoP{
     background-color: white;
-    width: 20%;
+    width: 22%;
     height: auto;
     margin: auto;
-    border-radius: 8px;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-left: 5%;
 }
+
+/*CONTATO*/
 #textoContato{
-    background-color: white;
+    background-color: rgb(224, 250, 228);
     width: 50%;
     height: auto;
     border-radius: 30px;
     margin-left: 500px;
-    margin-top: 100px;
+    margin-top: 10px;
 }
 #textoContato input[type = nome],input[type = email]
 {
-    width: 40%;
+    width: 70%;
     height: auto;
     padding-left: 10px;
     padding-top: 10px;
+    margin-top: 0px;
 
-    border-color: 0px solid aliceblue ;
+    border-width: 1px; /*TAMANHO DA BORDA*/
    border-radius: 5px; /*arredonda*/
-   margin-bottom: 20px; /*espaÃ§o entre os botÃĩes*/
+   margin-bottom: 5px; /*espaço entre os botões*/
 }
 #textoContato textarea{
-  /**/
+     width: 72%;
+     height: auto;
+     border-radius: 5px;
+}
+#textoContato input[type = submit]{
+    width: 60px;
+    height: 30px;
+
+    border: none; /*SEM BORDA*/
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    
+    
+    float: right; /*COLOCA PARA O LADO DIREITO*/
+}
+
+/*TEXTOS, TITULOS E SUBTITULOS*/
+.titulo{
+    margin-top: 0;
+    font-size: 30px;
+    color: black;
+}
+/*TITULO DO INDEX*/
+.tituloIN{
+    margin-top: 0;
+    font-size: 20px;
+    color: black;
+}
+.texto{
+    margin-top: 0;
+    font-size: 15px;
+    color: rgb(62, 62, 62);
 }
